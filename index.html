@@ -1,46 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Echoes of Wisdom</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Echoes of Wisdom</h1>
-        <p>Student Volunteer Project</p>
+    <!-- Sticky Navigation Menu -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Echoes of Wisdom</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact" class="nav-btn">Join Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero / Main Header Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Echoes of Wisdom</h1>
+            <p>Student Volunteer Project</p>
+            <a href="#about" class="hero-cta">Discover Our Mission</a>
+        </div>
     </header>
 
-    <section>
-        <h2>About Our Project</h2>
-        <p>We visited a nursing home and spent time with the residents through conversations and activities.</p>
-    </section>
+    <!-- Main Content Container -->
+    <main class="main-container">
 
-    <section>
-        <h2>Our Activities</h2>
-        <ul>
-            <li>Talking with residents</li>
-            <li>Playing games</li>
-            <li>Helping daily activities</li>
-            <li>Taking photos</li>
-        </ul>
-    </section>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Our Project</h2>
+            <p>We created <strong>Echoes of Wisdom</strong> to build meaningful connections between students and the elderly. Through visits, conversations, storytelling, and activities, we hope to give them companionship while learning from their experiences and stories.</p>
+        </section>
 
-    <section>
-        <h2>Our Team</h2>
-        <p>Ashwathy Sathish</p>
-        <p>Group 3 - APU Students</p>
-    </section>
+        <!-- Activities Section -->
+        <section id="activities">
+            <h2>Our Activities</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>💬 Storytelling</h3>
+                    <p>Talking with residents and sharing valuable life experiences.</p>
+                </div>
+                <div class="card">
+                    <h3>🎲 Engagement</h3>
+                    <p>Playing games and bringing joy to their leisure time.</p>
+                </div>
+                <div class="card">
+                    <h3>🤝 Assistance</h3>
+                    <p>Helping with daily activities and providing physical support.</p>
+                </div>
+                <div class="card">
+                    <h3>📸 Memories</h3>
+                    <p>Taking photos to preserve beautiful moments together.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Team Section -->
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <!-- Ganti teks AS dengan tag img -->
+                    <div class="avatar">
+                        <img src="ash.jpeg" alt="Ashwathy Sathish">
+                    </div>
+                    <h4>Ashwathy Sathish</h4>
+                </div>
+                <div class="team-card">
+                    <div class="avatar">
+                        <img src="salman2.jpeg" alt="Salman Sami Munim">
+                    </div>
+                    <h4>Salman Sami Munim</h4>
+                </div>
+                <div class="team-card">
+                    <div class="avatar">
+                        <img src="yuki.jpeg" alt="Yuki Yagi">
+                    </div>
+                    <h4>Yuki Yagi</h4>
+                </div>
+                <div class="team-card">
+                    <div class="avatar">
+                        <img src="syeda.jpeg" alt="Nama Anggota 4">
+                    </div>
+                    <h4>Syeda Tasnim Tumu</h4>
+                </div>
+                <div class="team-card">
+                    <div class="avatar">
+                        <img src="ahmad2.jpeg" alt="Nama Anggota 5">
+                    </div>
+                    <h4>Ahmad Syahir</h4>
+                </div>
+            </div>
+        </section>
 
-    <section>
-        <h2>Follow Us</h2>
-        <img src = "file.jpg" href =""
-        <a href="https://www.instagram.com/echoes.of.wisdom.official/">Instagram</a><br>
-        <a href="https://www.facebook.com/Echoes_of_Wisdom/">Facebook</a><br>
-        <a href="https://www.youtube.com/Echoes of Wisdom-Apu/">YouTube</a><br>
-        <a href="https://tiktok.com">TikTok</a>
 
-    </section>
+        <!-- Social Media / Contact Section -->
+        <section id="contact" class="social-section">
+            <h2>Follow Us</h2>
+            <p>Stay updated with our latest volunteer projects!</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/echoes.of.wisdom.official/" target="_blank" class="social-btn instagram">Instagram</a>
+                <a href="https://www.facebook.com/Echoes_of_Wisdom/" target="_blank" class="social-btn facebook">Facebook</a>
+                <a href="https://www.youtube.com/Echoes of Wisdom-Apu/" target="_blank" class="social-btn youtube">YouTube</a>
+                <a href="https://tiktok.com" target="_blank" class="social-btn tiktok">TikTok</a>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="socials">
+            <h2>Follow Us</h2>
+            <p>Tetap terhubung dengan proyek relawan terbaru kami!</p>
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank" class="social-btn instagram">Instagram</a>
+                <a href="https://facebook.com" target="_blank" class="social-btn facebook">Facebook</a>
+                <a href="https://youtube.com of Wisdom-Apu/" target="_blank" class="social-btn youtube">YouTube</a>
+                <a href="https://tiktok.com" target="_blank" class="social-btn tiktok">TikTok</a>
+            </div>
+        </section>
+
+
+    </main>
 
 </body>
 </html>
